@@ -37,7 +37,7 @@
 
     ``` gradle
     dependencies {
-       compile 'com.github.ybq:parallaxviewpager:2.0.0'
+       implementation 'com.github.Mystery00:ParallaxViewPager:3.0.0'
      }
 ``` 
 
