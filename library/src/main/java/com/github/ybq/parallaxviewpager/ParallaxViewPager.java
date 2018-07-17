@@ -6,8 +6,8 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
-import android.support.annotation.NonNull;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.NonNull;
+import androidx.viewpager.widget.ViewPager;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.animation.AnimationUtils;
@@ -24,7 +24,6 @@ import static android.graphics.drawable.GradientDrawable.Orientation.*;
  * Description:
  */
 public class ParallaxViewPager extends ViewPager {
-
     private Mode mMode;
     private int mShadowStart = Color.parseColor("#33000000");
     private int mShadowMid = Color.parseColor("#11000000");
